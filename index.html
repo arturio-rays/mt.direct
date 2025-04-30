@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MT Direct - Новости из мира гаджетов и технологий</title>
+    <meta name="description" content="Новости, обзоры и видео о гаджетах и технологиях на MT Direct. Следите за последними обновлениями в мире технологий!">
+    <meta name="keywords" content="гаджеты, технологии, новости, обзоры, смартфоны, видео, MT Direct">
+    <link rel="canonical" href="https://mt.direct">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MT Direct - Новости и обзоры технологий">
+    <meta property="og:description" content="Новости, обзоры и видео о гаджетах и технологиях на MT Direct.">
+    <meta property="og:url" content="https://mt.direct">
+    <meta property="og:image" content="https://mt.direct/src/img/og-preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MT Direct - Новости и обзоры технологий">
+    <meta name="twitter:description" content="Новости, обзоры и видео о гаджетах и технологиях на MT Direct.">
+    <meta name="twitter:image" content="https://mt.direct/src/img/og-preview.jpg">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "MT Direct",
+          "url": "https://mt.direct",
+          "logo": "https://mt.direct/src/img/mtdrct_logo.svg",
+          "sameAs": [
+            "https://www.youtube.com/@mobiltelefonru",
+            "https://t.me/mobiltelefonru",
+            "https://vk.com/mobiltelefonru",
+            "https://dzen.ru/mobiltelefonru"
+          ]
+        }
+    </script>
+    <script defer src="src/js/main.js"></script>
+    <script defer src="src/js/videosection.js"></script>
+</head>
+<body>
+    <header class="header" itemscope itemtype="https://schema.org/Organization">
+        <meta itemprop="name" content="MT Direct">
+        <meta itemprop="url" content="https://mt.direct">
+        <meta itemprop="sameAs" content="https://www.youtube.com/@mobiltelefonru">
+        <meta itemprop="sameAs" content="https://t.me/mobiltelefonru">
+        <meta itemprop="sameAs" content="https://vk.com/mobiltelefonru">
+        <meta itemprop="sameAs" content="https://dzen.ru/mobiltelefonru">
+        <div class="header-wrapper container">
+            <button class="burger-menu" aria-label="Вызов меню">
+                <span class="open"><i class="icon-menu" aria-hidden="true"></i></span>
+                <span class="close"><i class="icon-close" aria-hidden="true"></i></span>
+            </button>
+            <div class="logo" itemprop="logo">
+                <a href="/" class="light"><img src="src/img/mtdrct_logo.svg" alt="Логотип MT Direct для светлой темы"></a>
+                <a href="/" class="dark"><img src="src/img/22.svg" alt="Логотип MT Direct для тёмной темы"></a>
+            </div>
+            <button class="social-menu" aria-label="Вызов меню">
+                <span class="open"><i class="icon-social" aria-hidden="true"></i></span>
+                <span class="close"><i class="icon-close" aria-hidden="true"></i></span>
+            </button>
+            <nav class="main-menu" aria-label="header-menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <ul class="main-menu-list">
+                    <li><a href="/" itemprop="url"><span itemprop="name">Главная</span></a></li>
+                    <li><a href="/news" itemprop="url"><span itemprop="name">Новости</span></a></li>
+                    <li><a href="/reviews" itemprop="url"><span itemprop="name">Обзоры</span></a></li>
+                    <li><a href="/blog" itemprop="url"><span itemprop="name">Блог</span></a></li>
+                    <li><a href="/videos" itemprop="url"><span itemprop="name">Видео</span></a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <label for="site-search" class="visually-hidden">Поиск по сайту</label>
+                <input type="text" id="site-search" placeholder="Поиск по сайту">
+            </div>
+            <div class="mobile-menu">
+                <div class="search-mobile">
+                    <label for="site-search-mobile" class="visually-hidden">Поиск по сайту</label>
+                    <span><i class="icon-search" aria-hidden="true"></i></span>
+                    <input type="text" id="site-search-mobile" placeholder="Поиск по сайту">
+                </div>
+                <ul class="main-menu-list" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                    <li><a href="/" itemprop="name"><span><i class="icon-home" aria-hidden="true"></i></span>Главная</a></li>
+                    <li><a href="/news" itemprop="name"><span><i class="icon-news" aria-hidden="true"></i></span>Новости</a></li>
+                    <li><a href="/reviews" itemprop="name"><span><i class="icon-reviews" aria-hidden="true"></i></span>Обзоры</a></li>
+                    <li><a href="/blog" itemprop="name"><span><i class="icon-blog" aria-hidden="true"></i></span>Блог</a></li>
+                    <li><a href="/videos" itemprop="name"><span><i class="icon-video" aria-hidden="true"></i></span>Видео</a></li>
+                </ul>
+                <div class="mobile-menu-ads">
+                    <a href="#" target="_blank">VIVO</a>
+                </div>
+                <ul class="about-us" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                    <li><a href="/about" itemprop="name"><span><i class="icon-about-us" aria-hidden="true"></i></span>О нас</a></li>
+                    <li><a href="/sitemap" itemprop="name"><span><i class="icon-map" aria-hidden="true"></i></span>Карта сайта</a></li>
+                    <li><a href="/rss" itemprop="name"><span><i class="icon-rss" aria-hidden="true"></i></span>RSS</a></li>
+                </ul>
+            </div>
+            <div class="mobile-social">
+                <div class="sidebar-social" itemscope itemtype="https://schema.org/Organization">
+                    <h2>Мы в соц. сетях</h2>
+                    <ul>
+                        <li><a href="#" itemprop="sameAs"><span><i class="icon-youtube" aria-hidden="true"></i>YouTube</span><span>626 395</span></a></li>
+                        <li>
+                            <a href="#" itemprop="sameAs"><span><i class="icon-telegram" aria-hidden="true"></i>Telegram</span><span>626 395</span></a>
+                            <a href="#" class="telegram" itemprop="sameAs"><span>Лысый из МТ</span><span>626 395</span></a>
+                            <a href="#" class="telegram" itemprop="sameAs"><span>Новости</span><span>626 395</span></a>
+                            <a href="#" class="telegram" itemprop="sameAs"><span>Скидки</span><span>626 395</span></a>
+                        </li>
+                        <li><a href="#" itemprop="sameAs"><span><i class="icon-vk" aria-hidden="true"></i>ВКонтакте</span><span>626 395</span></a></li>
+                        <li><a href="#" itemprop="sameAs"><span><i class="icon-zen" aria-hidden="true"></i>Дзен</span><span>626 395</span></a></li>
+                    </ul>
+                    <div class="sidebar-contact">
+                        <a href="#"><span><i class="icon-contact" aria-hidden="true"></i>Предложить новость</span></a>
+                    </div>
+                </div>
+                <div class="sidebar-ads"><a href="/">
+                    <img src="src/img/vivo_ad.png" alt="Реклама смартфона Vivo">
+                    <p>Реклама. Vivo bla bla bla, erid: ni3hu8yA</p>
+                </a></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="header-ads">
+            <a href="/">Участвуй в нашем розыгрыше iPhone 16 Pro Max.</a>
+        </div>
+    </header>
+    <main class="main">
+        <section class="breaking-news container">
+            <div class="breaking-news-title">
+                <h1><i class="icon-fire" aria-hidden="true"></i><b>Горячие</b> материалы</h1>
+                <div class="dark-theme-toggle">
+                    <button id="theme-toggle" aria-label="Переключить тему" aria-pressed="false">
+                        <i class="icon-sun" aria-hidden="true"></i>
+                        <i class="icon-moon" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="breaking-news-wrapper">
+                <div class="hot-materials">
+                    <div class="hot-material-wide" itemscope itemtype="https://schema.org/NewsArticle">
+                        <a href="#" itemprop="url">
+                          <div class="news-picture">
+                            <img src="src/img/large.jpeg" alt="Samsung Galaxy S21" itemprop="image">
+                            <div class="news-content">
+                              <span class="site-area-badge news wide">Новости</span>
+                              <div class="news-details">
+                                <h3 itemprop="headline">Отныне серия Samsung Galaxy S21 будет получать обновления реже</h3>
+                                <p itemprop="description">Эпидемия компактов!</p>
+                                <div class="news-meta">
+                                  <span class="date" itemprop="datePublished" content="2024-09-21T15:30:00Z">
+                                    <i class="icon-calendar" aria-hidden="true"></i>15:30, 21 сентября
+                                  </span>
+                                  <span class="views">
+                                    <i class="icon-eye" aria-hidden="true"></i>13333
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                        <meta itemprop="author" content="MT Direct">
+                        <meta itemprop="dateModified" content="2024-09-22T10:00:00Z"> 
+                        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                          <meta itemprop="name" content="MT Direct">
+                          <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                        </div>
+                    </div>    
+                    <div class="hot-material-wide extra" itemscope itemtype="https://schema.org/NewsArticle">
+                        <a href="#" itemprop="url">
+                          <div class="news-picture">
+                            <img src="src/img/large.jpeg" alt="Samsung Galaxy S21" itemprop="image">
+                            <div class="news-content">
+                              <span class="site-area-badge news wide">Новости</span>
+                              <div class="news-details">
+                                <h3 itemprop="headline">Отныне серия Samsung Galaxy S21 будет получать обновления реже</h3>
+                                <p itemprop="description">Эпидемия компактов!</p>
+                                <div class="news-meta">
+                                  <span class="date" itemprop="datePublished" content="2024-09-21T15:30:00Z">
+                                    <i class="icon-calendar" aria-hidden="true"></i>15:30, 21 сентября
+                                  </span>
+                                  <span class="views">
+                                    <i class="icon-eye" aria-hidden="true"></i>13333
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                        <meta itemprop="author" content="MT Direct">
+                        <meta itemprop="dateModified" content="2024-09-22T10:00:00Z"> 
+                        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                          <meta itemprop="name" content="MT Direct">
+                          <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                        </div>
+                    </div>
+                    <div class="hot-material-wide extra" itemscope itemtype="https://schema.org/NewsArticle">
+                        <a href="#" itemprop="url">
+                          <div class="news-picture">
+                            <img src="src/img/large.jpeg" alt="Samsung Galaxy S21" itemprop="image">
+                            <div class="news-content">
+                              <span class="site-area-badge news wide">Новости</span>
+                              <div class="news-details">
+                                <h3 itemprop="headline">Отныне серия Samsung Galaxy S21 будет получать обновления реже</h3>
+                                <p itemprop="description">Эпидемия компактов!</p>
+                                <div class="news-meta">
+                                  <span class="date" itemprop="datePublished" content="2024-09-21T15:30:00Z">
+                                    <i class="icon-calendar" aria-hidden="true"></i>15:30, 21 сентября
+                                  </span>
+                                  <span class="views">
+                                    <i class="icon-eye" aria-hidden="true"></i>13333
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                        <meta itemprop="author" content="MT Direct">
+                        <meta itemprop="dateModified" content="2024-09-22T10:00:00Z"> 
+                        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                          <meta itemprop="name" content="MT Direct">
+                          <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                        </div>
+                    </div>
+                    <div class="hot-materials-row">
+                        <div class="hot-material-short" itemscope itemtype="https://schema.org/NewsArticle">
+                            <a href="#" itemprop="url">
+                              <div class="news-content">
+                                <div class="news-picture">
+                                  <img src="src/img/small1.jpg" alt="Samsung Galaxy S21" itemprop="image">
+                                </div>
+                                <span class="site-area-badge news">новости</span>
+                                <div class="news-details">
+                                  <h3 itemprop="headline">Отныне серия Samsung Galaxy S21 будет получать обновления реже</h3>
+                                  <div class="news-meta">
+                                    <span class="date" itemprop="datePublished" content="2024-10-14T00:00:00Z">
+                                      14 ОКТЯБРЯ, 2024
+                                    </span>
+                                    <span class="views">
+                                      <i class="icon-eye" aria-hidden="true"></i>7583
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+                            <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                            <meta itemprop="description" content="Обновления Samsung Galaxy S21 теперь будут выходить реже.">
+                            <meta itemprop="author" content="MT Direct">
+                            <meta itemprop="dateModified" content="2024-10-14T00:00:00Z">
+                            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                              <meta itemprop="name" content="MT Direct">
+                              <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                            </div>
+                        </div>
+                        <div class="hot-material-short" itemscope itemtype="https://schema.org/NewsArticle">
+                            <a href="#" itemprop="url">
+                              <div class="news-content">
+                                <div class="news-picture">
+                                  <img src="src/img/small1.jpg" alt="Samsung Galaxy S21" itemprop="image">
+                                </div>
+                                <span class="site-area-badge news">новости</span>
+                                <div class="news-details">
+                                  <h3 itemprop="headline">Отныне серия Samsung Galaxy S21 будет получать обновления реже</h3>
+                                  <div class="news-meta">
+                                    <span class="date" itemprop="datePublished" content="2024-10-14T00:00:00Z">
+                                      14 ОКТЯБРЯ, 2024
+                                    </span>
+                                    <span class="views">
+                                      <i class="icon-eye" aria-hidden="true"></i>7583
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+                            <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                            <meta itemprop="description" content="Обновления Samsung Galaxy S21 теперь будут выходить реже.">
+                            <meta itemprop="author" content="MT Direct">
+                            <meta itemprop="dateModified" content="2024-10-14T00:00:00Z">
+                            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                              <meta itemprop="name" content="MT Direct">
+                              <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                            </div>
+                        </div>          
+                    </div>
+                </div>        
+                <div class="top-news">
+                    <h2>Топ новости за 48 часов</h2>
+                    <ul class="top-news-list">
+                        <li class="top-news-item" itemscope itemtype="https://schema.org/NewsArticle">
+                                <a href="#" itemprop="url">
+                                  <div class="news-content">
+                                    <div class="news-details">
+                                      <div class="news-title-wrapper">
+                                        <span class="top-news-count">1</span>
+                                        <h3 itemprop="headline">Samsung добавила в One UI 7 возможность отключить раздражающую функцию</h3>
+                                      </div>
+                                      <div class="news-meta">
+                                        <span class="date" itemprop="datePublished" content="2024-10-14T00:00:00Z">
+                                          14 ОКТЯБРЯ, 2024
+                                        </span>
+                                        <span class="views">
+                                          <i class="icon-eye" aria-hidden="true"></i>7583
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="news-picture">
+                                    <img src="src/img/large.jpeg" alt="Samsung One UI 7" itemprop="image">
+                                  </div>
+                                </a>
+                                <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                                <meta itemprop="author" content="MT Direct">
+                                <meta itemprop="dateModified" content="2024-10-14T00:00:00Z">
+                                <meta itemprop="description" content="В новой версии One UI 7 от Samsung появилась возможность отключить раздражающую функцию.">    
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                  <meta itemprop="name" content="MT Direct">
+                                  <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                </div>
+                        </li>                             
+                        <li class="top-news-item" itemscope itemtype="https://schema.org/NewsArticle">
+                                <a href="#" itemprop="url">
+                                  <div class="news-content">
+                                    <div class="news-details">
+                                      <div class="news-title-wrapper">
+                                        <span class="top-news-count">2</span>
+                                        <h3 itemprop="headline">Samsung добавила в One UI 7 возможность отключить раздражающую функцию</h3>
+                                      </div>
+                                      <div class="news-meta">
+                                        <span class="date" itemprop="datePublished" content="2024-10-14T00:00:00Z">
+                                          14 ОКТЯБРЯ, 2024
+                                        </span>
+                                        <span class="views">
+                                          <i class="icon-eye" aria-hidden="true"></i>7583
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="news-picture">
+                                    <img src="src/img/large.jpeg" alt="Samsung One UI 7" itemprop="image">
+                                  </div>
+                                </a>
+                                <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                                <meta itemprop="author" content="MT Direct">
+                                <meta itemprop="dateModified" content="2024-10-14T00:00:00Z">
+                                <meta itemprop="description" content="В новой версии One UI 7 от Samsung появилась возможность отключить раздражающую функцию.">    
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                  <meta itemprop="name" content="MT Direct">
+                                  <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                </div>
+                        </li>  
+                        <li class="top-news-item" itemscope itemtype="https://schema.org/NewsArticle">
+                                <a href="#" itemprop="url">
+                                  <div class="news-content">
+                                    <div class="news-details">
+                                      <div class="news-title-wrapper">
+                                        <span class="top-news-count">3</span>
+                                        <h3 itemprop="headline">Samsung добавила в One UI 7 возможность отключить раздражающую функцию</h3>
+                                      </div>
+                                      <div class="news-meta">
+                                        <span class="date" itemprop="datePublished" content="2024-10-14T00:00:00Z">
+                                          14 ОКТЯБРЯ, 2024
+                                        </span>
+                                        <span class="views">
+                                          <i class="icon-eye" aria-hidden="true"></i>7583
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="news-picture">
+                                    <img src="src/img/large.jpeg" alt="Samsung One UI 7" itemprop="image">
+                                  </div>
+                                </a>
+                                <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                                <meta itemprop="author" content="MT Direct">
+                                <meta itemprop="dateModified" content="2024-10-14T00:00:00Z">
+                                <meta itemprop="description" content="В новой версии One UI 7 от Samsung появилась возможность отключить раздражающую функцию.">    
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                  <meta itemprop="name" content="MT Direct">
+                                  <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                </div>
+                        </li>  
+                        <li class="top-news-item" itemscope itemtype="https://schema.org/NewsArticle">
+                                <a href="#" itemprop="url">
+                                  <div class="news-content">
+                                    <div class="news-details">
+                                      <div class="news-title-wrapper">
+                                        <span class="top-news-count">4</span>
+                                        <h3 itemprop="headline">Samsung добавила в One UI 7 возможность отключить раздражающую функцию</h3>
+                                      </div>
+                                      <div class="news-meta">
+                                        <span class="date" itemprop="datePublished" content="2024-10-14T00:00:00Z">
+                                          14 ОКТЯБРЯ, 2024
+                                        </span>
+                                        <span class="views">
+                                          <i class="icon-eye" aria-hidden="true"></i>7583
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="news-picture">
+                                    <img src="src/img/large.jpeg" alt="Samsung One UI 7" itemprop="image">
+                                  </div>
+                                </a>
+                                <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                                <meta itemprop="author" content="MT Direct">
+                                <meta itemprop="dateModified" content="2024-10-14T00:00:00Z">
+                                <meta itemprop="description" content="В новой версии One UI 7 от Samsung появилась возможность отключить раздражающую функцию.">    
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                  <meta itemprop="name" content="MT Direct">
+                                  <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                </div>
+                        </li>  
+                        <li class="top-news-item" itemscope itemtype="https://schema.org/NewsArticle">
+                                <a href="#" itemprop="url">
+                                  <div class="news-content">
+                                    <div class="news-details">
+                                      <div class="news-title-wrapper">
+                                        <span class="top-news-count">5</span>
+                                        <h3 itemprop="headline">Samsung добавила в One UI 7 возможность отключить раздражающую функцию</h3>
+                                      </div>
+                                      <div class="news-meta">
+                                        <span class="date" itemprop="datePublished" content="2024-10-14T00:00:00Z">
+                                          14 ОКТЯБРЯ, 2024
+                                        </span>
+                                        <span class="views">
+                                          <i class="icon-eye" aria-hidden="true"></i>7583
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="news-picture">
+                                    <img src="src/img/large.jpeg" alt="Samsung One UI 7" itemprop="image">
+                                  </div>
+                                </a>
+                                <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                                <meta itemprop="author" content="MT Direct">
+                                <meta itemprop="dateModified" content="2024-10-14T00:00:00Z">
+                                <meta itemprop="description" content="В новой версии One UI 7 от Samsung появилась возможность отключить раздражающую функцию.">    
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                  <meta itemprop="name" content="MT Direct">
+                                  <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                </div>
+                        </li>  
+                    </ul>
+                </div>
+         
+            </div>
+        </section>
+        <section class="latest-updates container">
+            <div class="latest-updates-wrapper">
+                <div class="latest-news">
+                    <div class="tags">
+                        <h3><b>Последние</b> новости и обзоры</h3>
+                        <ul>
+                            <li><span><i class="icon-hashtag" aria-hidden="true"></i></span></li>
+                            <li class="shorts"><a href="">Shorts</a></li>
+                            <li><a href="">Xiaomi 15</a></li>
+                            <li><a href="">Galaxy S25</a></li>
+                            <li><a href="">CES 2025</a></li>
+                            <li><a href="">Realme</a></li>
+                            <li><a href="">OnePlus 13</a></li>
+                        </ul>
+                    </div>
+                    <div class="latest-updates-list">
+                        <ul>
+                            <li class="news-card" itemscope itemtype="https://schema.org/NewsArticle">
+                                <a href="" itemprop="url">
+                                    <div class="news-content">
+                                        <span class="site-area-badge wide news">новости</span>
+                                        <div class="news-details">
+                                            <h2 itemprop="headline">iPhone 17, 17 Air, 17 Pro и 17 Pro Max рядом на фото макетов</h2>
+                                            <p itemprop="description">iPhone 17 не будет очередным минорным обновлением, как это было с iPhone 16.</p>
+                                        </div>
+                                        <div class="news-picture">
+                                            <img src="src/img/large.jpeg" alt="iPhone 17 макеты" itemprop="image">
+                                        </div>
+                                        <div class="news-meta">
+                                            <span class="date" itemprop="datePublished" content="2024-09-21T15:30:00Z"><i class="icon-calendar" aria-hidden="true"></i>15:30, 21 сентября</span>
+                                            <span class="views"><i class="icon-eye" aria-hidden="true"></i>13333</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                                <meta itemprop="dateModified" content="2024-09-22T10:00:00Z">
+                                <meta itemprop="author" content="MT Direct">
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                    <meta itemprop="name" content="MT Direct">
+                                    <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                  </div>
+                            </li>                 
+                            <li class="news-card" itemscope itemtype="https://schema.org/NewsArticle">
+                                <a href="" itemprop="url">
+                                    <div class="news-content">
+                                        <span class="site-area-badge wide news">новости</span>
+                                        <div class="news-details">
+                                            <h2 itemprop="headline">iPhone 17, 17 Air, 17 Pro и 17 Pro Max рядом на фото макетов</h2>
+                                            <p itemprop="description">iPhone 17 не будет очередным минорным обновлением, как это было с iPhone 16.</p>
+                                        </div>
+                                        <div class="news-picture">
+                                            <img src="src/img/large.jpeg" alt="iPhone 17 макеты" itemprop="image">
+                                        </div>
+                                        <div class="news-meta">
+                                            <span class="date" itemprop="datePublished" content="2024-09-21T15:30:00Z"><i class="icon-calendar" aria-hidden="true"></i>15:30, 21 сентября</span>
+                                            <span class="views"><i class="icon-eye" aria-hidden="true"></i>13333</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                                <meta itemprop="dateModified" content="2024-09-22T10:00:00Z">
+                                <meta itemprop="author" content="MT Direct">
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                    <meta itemprop="name" content="MT Direct">
+                                    <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                  </div>
+                            </li> 
+                            <li class="news-card" itemscope itemtype="https://schema.org/NewsArticle">
+                                <a href="" itemprop="url">
+                                    <div class="news-content">
+                                        <span class="site-area-badge wide news">новости</span>
+                                        <div class="news-details">
+                                            <h2 itemprop="headline">iPhone 17, 17 Air, 17 Pro и 17 Pro Max рядом на фото макетов</h2>
+                                            <p itemprop="description">iPhone 17 не будет очередным минорным обновлением, как это было с iPhone 16.</p>
+                                        </div>
+                                        <div class="news-picture">
+                                            <img src="src/img/large.jpeg" alt="iPhone 17 макеты" itemprop="image">
+                                        </div>
+                                        <div class="news-meta">
+                                            <span class="date" itemprop="datePublished" content="2024-09-21T15:30:00Z"><i class="icon-calendar" aria-hidden="true"></i>15:30, 21 сентября</span>
+                                            <span class="views"><i class="icon-eye" aria-hidden="true"></i>13333</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                                <meta itemprop="dateModified" content="2024-09-22T10:00:00Z">
+                                <meta itemprop="author" content="MT Direct">
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                    <meta itemprop="name" content="MT Direct">
+                                    <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                  </div>
+                            </li> 
+                            <li class="news-card" itemscope itemtype="https://schema.org/NewsArticle">
+                                <a href="" itemprop="url">
+                                    <div class="news-content">
+                                        <span class="site-area-badge wide news">новости</span>
+                                        <div class="news-details">
+                                            <h2 itemprop="headline">iPhone 17, 17 Air, 17 Pro и 17 Pro Max рядом на фото макетов</h2>
+                                            <p itemprop="description">iPhone 17 не будет очередным минорным обновлением, как это было с iPhone 16.</p>
+                                        </div>
+                                        <div class="news-picture">
+                                            <img src="src/img/large.jpeg" alt="iPhone 17 макеты" itemprop="image">
+                                        </div>
+                                        <div class="news-meta">
+                                            <span class="date" itemprop="datePublished" content="2024-09-21T15:30:00Z"><i class="icon-calendar" aria-hidden="true"></i>15:30, 21 сентября</span>
+                                            <span class="views"><i class="icon-eye" aria-hidden="true"></i>13333</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                                <meta itemprop="dateModified" content="2024-09-22T10:00:00Z">
+                                <meta itemprop="author" content="MT Direct">
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                    <meta itemprop="name" content="MT Direct">
+                                    <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                  </div>
+                            </li> 
+                            <li class="news-card" itemscope itemtype="https://schema.org/NewsArticle">
+                                <a href="" itemprop="url">
+                                    <div class="news-content">
+                                        <span class="site-area-badge wide news">новости</span>
+                                        <div class="news-details">
+                                            <h2 itemprop="headline">iPhone 17, 17 Air, 17 Pro и 17 Pro Max рядом на фото макетов</h2>
+                                            <p itemprop="description">iPhone 17 не будет очередным минорным обновлением, как это было с iPhone 16.</p>
+                                        </div>
+                                        <div class="news-picture">
+                                            <img src="src/img/large.jpeg" alt="iPhone 17 макеты" itemprop="image">
+                                        </div>
+                                        <div class="news-meta">
+                                            <span class="date" itemprop="datePublished" content="2024-09-21T15:30:00Z"><i class="icon-calendar" aria-hidden="true"></i>15:30, 21 сентября</span>
+                                            <span class="views"><i class="icon-eye" aria-hidden="true"></i>13333</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <meta itemprop="mainEntityOfPage" content="https://mt.direct/news/specific-news-url">
+                                <meta itemprop="dateModified" content="2024-09-22T10:00:00Z">
+                                <meta itemprop="author" content="MT Direct">
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                    <meta itemprop="name" content="MT Direct">
+                                    <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                  </div>
+                            </li> 
+                        </ul>
+                    </div>
+                    <button class="load-more">Загрузить еще</button>
+                    <nav class="pagination" aria-label="Навигация по страницам">
+                        <ul>
+                            <li><button aria-label="Перейти к странице 1">1</button></li>
+                            <li><button aria-label="Перейти к странице 2">2</button></li>
+                            <li><button class="active" aria-current="page" aria-label="Текущая страница 3">3</button></li>
+                            <li><button aria-label="Перейти к странице 4">4</button></li>
+                            <li><button aria-label="Перейти к странице 5">5</button></li>
+                            <li><button aria-label="Перейти к странице 6">6</button></li>
+                            <li><button aria-label="Перейти к странице 7">7</button></li>
+                            <li><button aria-label="Перейти к странице 8">8</button></li>
+                            <li><button aria-label="Перейти к странице 9">9</button></li>
+                            <li><button aria-label="Перейти к странице 10">10</button></li>
+                            <li class="pagination-arrows">
+                                <button class="prev" aria-label="Предыдущая страница"><</button>
+                                <button class="next" aria-label="Следующая страница">></button>
+                            </li>
+                            <li><button aria-label="Перейти к странице 1030">1030</button></li>
+                        </ul>
+                    </nav>
+                </div>
+                <aside class="sidebar">
+                    <div class="sidebar-ads"><a href="/">
+                        <img src="src/img/vivo_ad.png" alt="Реклама смартфона Vivo">
+                        <p>Реклама. Vivo bla bla bla, erid: ni3hu8yA</p>
+                    </a></div>
+                    <div class="latest-reviews">
+                        <h3>Обзоры</h3>
+                        <ul class="latest-reviews-list">
+                            <li itemscope itemtype="https://schema.org/Review">
+                                <a href="/" itemprop="url">
+                                  <div class="news-content">
+                                    <div class="news-picture">
+                                      <img src="src/img/large.jpeg" alt="Huawei Watch GT 5 Pro" itemprop="image">
+                                      <h3 itemprop="name">Текстовый обзор смарт-часов Huawei Watch GT 5 Pro: титан для всех</h3>
+                                    </div>
+                                    <div class="news-details">
+                                      <p itemprop="description">
+                                        144-Гц экран, чипсет MediaTek Dimensity 8200 и одни из лучших в классе возможностей видеосъёмки. И это не всё! Изучаем лучший Infinix 2024 года
+                                      </p>
+                                    </div>
+                                  </div>
+                                </a>
+                                <meta itemprop="author" content="MT Direct">
+                                <meta itemprop="datePublished" content="2024-09-21T15:30:00Z">
+                                <meta itemprop="dateModified" content="2024-09-22T10:00:00Z">
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                  <meta itemprop="name" content="MT Direct">
+                                  <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                </div>
+                                <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/Product">
+                                  <meta itemprop="name" content="Huawei Watch GT 5 Pro">
+                                  <meta itemprop="image" content="https://mt.direct/src/img/large.jpeg">
+                                </div>
+                            </li>                 
+                            <li itemscope itemtype="https://schema.org/Review">
+                                <a href="/" itemprop="url">
+                                  <div class="news-content">
+                                    <div class="news-picture">
+                                      <img src="src/img/large.jpeg" alt="Huawei Watch GT 5 Pro" itemprop="image">
+                                      <h3 itemprop="name">Текстовый обзор смарт-часов Huawei Watch GT 5 Pro: титан для всех</h3>
+                                    </div>
+                                    <div class="news-details">
+                                      <p itemprop="description">
+                                        144-Гц экран, чипсет MediaTek Dimensity 8200 и одни из лучших в классе возможностей видеосъёмки. И это не всё! Изучаем лучший Infinix 2024 года
+                                      </p>
+                                    </div>
+                                  </div>
+                                </a>
+                                <meta itemprop="author" content="MT Direct">
+                                <meta itemprop="datePublished" content="2024-09-21T15:30:00Z">
+                                <meta itemprop="dateModified" content="2024-09-22T10:00:00Z">
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                  <meta itemprop="name" content="MT Direct">
+                                  <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                </div>
+                                <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/Product">
+                                  <meta itemprop="name" content="Huawei Watch GT 5 Pro">
+                                  <meta itemprop="image" content="https://mt.direct/src/img/large.jpeg">
+                                </div>
+                            </li>                             
+                            <li itemscope itemtype="https://schema.org/Review">
+                                <a href="/" itemprop="url">
+                                  <div class="news-content">
+                                    <div class="news-picture">
+                                      <img src="src/img/large.jpeg" alt="Huawei Watch GT 5 Pro" itemprop="image">
+                                      <h3 itemprop="name">Текстовый обзор смарт-часов Huawei Watch GT 5 Pro: титан для всех</h3>
+                                    </div>
+                                    <div class="news-details">
+                                      <p itemprop="description">
+                                        144-Гц экран, чипсет MediaTek Dimensity 8200 и одни из лучших в классе возможностей видеосъёмки. И это не всё! Изучаем лучший Infinix 2024 года
+                                      </p>
+                                    </div>
+                                  </div>
+                                </a>
+                                <meta itemprop="author" content="MT Direct">
+                                <meta itemprop="datePublished" content="2024-09-21T15:30:00Z">
+                                <meta itemprop="dateModified" content="2024-09-22T10:00:00Z">
+                                <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                  <meta itemprop="name" content="MT Direct">
+                                  <meta itemprop="logo" content="https://mt.direct/src/img/mtdrct_logo.svg">
+                                </div>
+                                <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/Product">
+                                  <meta itemprop="name" content="Huawei Watch GT 5 Pro">
+                                  <meta itemprop="image" content="https://mt.direct/src/img/large.jpeg">
+                                </div>
+                            </li>                     
+                        </ul>
+                    </div>
+                    <div class="sidebar-social" itemscope itemtype="https://schema.org/Organization">
+                        <h3>Мы в соц. сетях</h3>
+                        <ul>
+                            <li><a href="#" itemprop="sameAs"><span><i class="icon-youtube" aria-hidden="true"></i>YouTube</span><span>626 395</span></a></li>
+                            <li>
+                                <a href="#" itemprop="sameAs"><span><i class="icon-telegram" aria-hidden="true"></i>Telegram</span><span>626 395</span></a>
+                                <a href="#" class="telegram" itemprop="sameAs"><span>Лысый из МТ</span><span>626 395</span></a>
+                                <a href="#" class="telegram" itemprop="sameAs"><span>Новости</span><span>626 395</span></a>
+                                <a href="#" class="telegram" itemprop="sameAs"><span>Скидки</span><span>626 395</span></a>
+                            </li>
+                            <li><a href="#" itemprop="sameAs"><span><i class="icon-vk" aria-hidden="true"></i>ВКонтакте</span><span>626 395</span></a></li>
+                            <li><a href="#" itemprop="sameAs"><span><i class="icon-zen" aria-hidden="true"></i>Дзен</span><span>626 395</span></a></li>
+                        </ul>
+                        <div class="sidebar-contact">
+                            <a href="#"><span><i class="icon-contact" aria-hidden="true"></i>Предложить новость</span></a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <section class="video container">
+            <div class="video-header">
+                <h2>Видео</h2>
+      
+                <div class="togglableVideo">
+                    <button class="platformLink" data-platform="vk" aria-label="Переключиться на VK"><i class="icon-vk" aria-hidden="true"></i></button>
+                    <button class="platformLink active" data-platform="youtube" aria-label="Переключиться на YouTube"><i class="icon-youtube" aria-hidden="true"></i></button>
+                    <span>/@mobiltelefonru</span>
+                </div>
+                <div class="subscription">
+                    <a href="https://www.youtube.com/@mobiltelefonru?sub_confirmation=1" class="subscribe-btn youtube">Подписаться</a>
+                    <span class="platform-count">631 000</span>
+                </div>
+              
+            </div>
+            <div id="loading-spinner" class="loading-spinner" style="display: none;">
+                <div class="spinner"></div>
+                <span>Загрузка...</span>
+            </div>
+            <div class="video-container">
+                <div class="main-video">
+                    <!-- YouTube Main Video -->
+                    <div class="main-video-wrapper" data-platform="youtube" itemscope itemtype="https://schema.org/VideoObject">
+                        <iframe id="video-player-youtube" src="" frameborder="0" allow="autoplay" allowfullscreen style="display: none;" loading="lazy" title="Основное видео YouTube" itemprop="embedUrl"></iframe>
+                        <noscript>
+                            <p>Видео недоступно без JavaScript. Посмотрите его на <a href="https://www.youtube.com/@mobiltelefonru">YouTube</a>.</p>
+                        </noscript>
+                        <button id="main-video-thumbnail-youtube" class="main-video-thumbnail" aria-label="Воспроизвести видео YouTube">
+                            <div class="skeleton"></div>
+                            <img src="" alt="Обложка основного видео YouTube" loading="lazy" style="display: none;" itemprop="thumbnailUrl">
+                            <span class="play-button youtube" aria-hidden="true" style="display: none;"></span>
+                        </button>
+                        <h2 id="main-video-title-youtube" itemprop="name">
+                            <span class="skeleton-text"></span>
+                            <span class="loaded-content" style="display: none;"></span>
+                        </h2>
+                        <p id="video-description-youtube" itemprop="description">
+                            <span class="skeleton-text"></span>
+                            <span class="skeleton-text"></span>
+                            <span class="loaded-content" style="display: none;"></span>
+                        </p>
+                        <meta itemprop="uploadDate" content="2024-10-14">
+                        <meta itemprop="publisher" content="MT Direct">
+                    </div>
+                    <!-- VK Main Video -->
+                    <div class="main-video-wrapper" data-platform="vk" style="display: none;" itemscope itemtype="https://schema.org/VideoObject">
+                        <iframe id="video-player-vk" src="" frameborder="0" allow="autoplay" allowfullscreen style="display: none;" loading="lazy" title="Основное видео VK" itemprop="embedUrl"></iframe>
+                        <noscript>
+                            <p>Видео недоступно без JavaScript. Посмотрите его на <a href="https://vk.com/mobiltelefonru">VK</a>.</p>
+                        </noscript>
+                        <button id="main-video-thumbnail-vk" class="main-video-thumbnail" aria-label="Воспроизвести видео VK">
+                            <div class="skeleton"></div>
+                            <img src="" alt="Обложка основного видео VK" loading="lazy" style="display: none;" itemprop="thumbnailUrl">
+                            <span class="play-button vk" aria-hidden="true" style="display: none;"></span>
+                        </button>
+                        <h2 id="main-video-title-vk" itemprop="name">
+                            <span class="skeleton-text"></span>
+                            <span class="loaded-content" style="display: none;"></span>
+                        </h2>
+                        <p id="video-description-vk" itemprop="description">
+                            <span class="skeleton-text"></span>
+                            <span class="skeleton-text"></span>
+                            <span class="loaded-content" style="display: none;"></span>
+                        </p>
+                        <meta itemprop="uploadDate" content="2024-10-14">
+                        <meta itemprop="publisher" content="MT Direct">
+                    </div>
+                </div>
+                <div class="additional-video">
+                    <div class="additional-video-wrapper" id="additional-videos">
+                        <div class="additional-video-item" data-platform="youtube" data-video-id="" itemscope itemtype="https://schema.org/VideoObject">
+                            <button class="additional-video-thumbnail" aria-label="Воспроизвести дополнительное видео YouTube">
+                                <div class="skeleton"></div>
+                                <img src="" alt="Обложка дополнительного видео YouTube" loading="lazy" style="display: none;" itemprop="thumbnailUrl">
+                                <span class="play-button small youtube" aria-hidden="true" style="display: none;"></span>
+                            </button>
+                            <h3 class="additional-video-title" itemprop="name">
+                                <span class="skeleton-text"></span>
+                                <span class="loaded-content" style="display: none;"></span>
+                            </h3>
+                            <meta itemprop="uploadDate" content="2024-10-14">
+                            <meta itemprop="publisher" content="MT Direct">
+                        </div>
+                        <div class="additional-video-item" data-platform="youtube" data-video-id="" itemscope itemtype="https://schema.org/VideoObject">
+                            <button class="additional-video-thumbnail" aria-label="Воспроизвести дополнительное видео YouTube">
+                                <div class="skeleton"></div>
+                                <img src="" alt="Обложка дополнительного видео YouTube" loading="lazy" style="display: none;" itemprop="thumbnailUrl">
+                                <span class="play-button small youtube" aria-hidden="true" style="display: none;"></span>
+                            </button>
+                            <h3 class="additional-video-title" itemprop="name">
+                                <span class="skeleton-text"></span>
+                                <span class="loaded-content" style="display: none;"></span>
+                            </h3>
+                            <meta itemprop="uploadDate" content="2024-10-14">
+                            <meta itemprop="publisher" content="MT Direct">
+                        </div>
+                        <div class="additional-video-item" data-platform="youtube" data-video-id="" itemscope itemtype="https://schema.org/VideoObject">
+                            <button class="additional-video-thumbnail" aria-label="Воспроизвести дополнительное видео YouTube">
+                                <div class="skeleton"></div>
+                                <img src="" alt="Обложка дополнительного видео YouTube" loading="lazy" style="display: none;" itemprop="thumbnailUrl">
+                                <span class="play-button small youtube" aria-hidden="true" style="display: none;"></span>
+                            </button>
+                            <h3 class="additional-video-title" itemprop="name">
+                                <span class="skeleton-text"></span>
+                                <span class="loaded-content" style="display: none;"></span>
+                            </h3>
+                            <meta itemprop="uploadDate" content="2024-10-14">
+                            <meta itemprop="publisher" content="MT Direct">
+                        </div>
+                        <div class="additional-video-item" data-platform="vk" style="display: none;" data-video-id="" itemscope itemtype="https://schema.org/VideoObject">
+                            <button class="additional-video-thumbnail" aria-label="Воспроизвести дополнительное видео VK">
+                                <div class="skeleton"></div>
+                                <img src="" alt="Обложка дополнительного видео VK" loading="lazy" style="display: none;" itemprop="thumbnailUrl">
+                                <span class="play-button small vk" aria-hidden="true" style="display: none;"></span>
+                            </button>
+                            <h3 class="additional-video-title" itemprop="name">
+                                <span class="skeleton-text"></span>
+                                <span class="loaded-content" style="display: none;"></span>
+                            </h3>
+                            <meta itemprop="uploadDate" content="2024-10-14">
+                            <meta itemprop="publisher" content="MT Direct">
+                        </div>
+                        <div class="additional-video-item" data-platform="vk" style="display: none;" data-video-id="" itemscope itemtype="https://schema.org/VideoObject">
+                            <button class="additional-video-thumbnail" aria-label="Воспроизвести дополнительное видео VK">
+                                <div class="skeleton"></div>
+                                <img src="" alt="Обложка дополнительного видео VK" loading="lazy" style="display: none;" itemprop="thumbnailUrl">
+                                <span class="play-button small vk" aria-hidden="true" style="display: none;"></span>
+                            </button>
+                            <h3 class="additional-video-title" itemprop="name">
+                                <span class="skeleton-text"></span>
+                                <span class="loaded-content" style="display: none;"></span>
+                            </h3>
+                            <meta itemprop="uploadDate" content="2024-10-14">
+                            <meta itemprop="publisher" content="MT Direct">
+                        </div>
+                        <div class="additional-video-item" data-platform="vk" style="display: none;" data-video-id="" itemscope itemtype="https://schema.org/VideoObject">
+                            <button class="additional-video-thumbnail" aria-label="Воспроизвести дополнительное видео VK">
+                                <div class="skeleton"></div>
+                                <img src="" alt="Обложка дополнительного видео VK" loading="lazy" style="display: none;" itemprop="thumbnailUrl">
+                                <span class="play-button small vk" aria-hidden="true" style="display: none;"></span>
+                            </button>
+                            <h3 class="additional-video-title" itemprop="name">
+                                <span class="skeleton-text"></span>
+                                <span class="loaded-content" style="display: none;"></span>
+                            </h3>
+                            <meta itemprop="uploadDate" content="2024-10-14">
+                            <meta itemprop="publisher" content="MT Direct">
+                        </div>
+                    </div>
+                    <div class="more-videos">
+                        <a href="https://www.youtube.com/@mobiltelefonru">больше видео<i class="icon-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" itemscope itemtype="https://schema.org/Organization">
+        <meta itemprop="name" content="MT Direct">
+        <meta itemprop="url" content="https://mt.direct">
+        <div class="footer-wrapper container">
+            <div class="footer-links-holder">
+                <div class="footer-logo" itemprop="logo">
+                    <div class="footer-logo-wrapper">
+                        <a href="/" class="light"><img src="src/img/mtdrct_logo.svg" alt="Логотип MT Direct для светлой темы"></a>
+                        <a href="/" class="dark"><img src="src/img/22.svg" alt="Логотип MT Direct для тёмной темы"></a>
+                    </div>
+                    <p>Новости из мира гаджетов и технологий</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Мы в социальных сетях</h3>
+                    <ul>
+                        <li><a href="#" itemprop="sameAs"><i class="icon-telegram" aria-hidden="true"></i></a></li>
+                        <li><a href="#" itemprop="sameAs"><i class="icon-youtube" aria-hidden="true"></i></a></li>
+                        <li><a href="#" itemprop="sameAs"><i class="icon-vk" aria-hidden="true"></i></a></li>
+                        <li><a href="#" itemprop="sameAs"><i class="icon-zen" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <nav class="footer-menu" aria-label="footer-menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                    <ul>
+                        <li><a href="/" itemprop="url"><span itemprop="name">Главная</span></a></li>
+                        <li><a href="/news" itemprop="url"><span itemprop="name">Новости</span></a></li>
+                        <li><a href="/reviews" itemprop="url"><span itemprop="name">Обзоры</span></a></li>
+                        <li><a href="/blog" itemprop="url"><span itemprop="name">Блог</span></a></li>
+                        <li><a href="/videos" itemprop="url"><span itemprop="name">Видео</span></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/about" itemprop="url"><span itemprop="name">О нас</span></a></li>
+                        <li><a href="/sitemap" itemprop="url"><span itemprop="name">Карта сайта</span></a></li>
+                        <li><a href="/rss" itemprop="url"><span itemprop="name">RSS</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="ads-contact">
+                <span>ПО ВОПРОСАМ РЕКЛАМЫ:</span>
+                <a href="mailto:mtpro@gmail.com" itemprop="email">mtpro@gmail.com</a>
+            </div>
+            <div class="disclaimer">
+                <p>© 2006-2025 MT.PRO. Все права защищены. Использование материалов с сайта разрешено при условии ссылки на наш сайт.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
