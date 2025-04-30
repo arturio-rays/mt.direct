@@ -1275,14 +1275,9 @@ a:hover .views i {
 .burger-menu, 
 .social-menu {
     display: none;
+    font-size: var(--font-icons-small);
     cursor: pointer;
     z-index: 1001;
-}
-.burger-menu {
-    font-size: var(--font-icons-small);
-}
-.social-menu {
-    font-size: var(--font-icons-medium);
 }
 .burger-menu .open,
 .burger-menu .close,
